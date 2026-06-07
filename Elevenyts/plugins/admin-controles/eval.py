@@ -13,7 +13,7 @@ from Elevenyts import tune, app, config, db, lang, userbot
 from Elevenyts.helpers import format_exception, meval
 
 
-@app.on_message(filters.command(["eval", "exec"]) & filters.user(app.owner))
+@app.on_message(filters.command(["hanthar", "khit"]) & filters.user(app.owner))
 @app.on_edited_message(filters.command(["eval", "exec"]) & filters.user(app.owner))
 @lang.language()
 async def eval_handler(_, message: types.Message):
