@@ -104,10 +104,10 @@ class Userbot(Client):
         if config.SESSION3:
             await self.boot_client(3, self.three)
         
-        _a = "456c6576656e5974736d75736963"      
-        _b = "61727469737464707a"                  
-        _c = "656c6576656e7974736368617473"      
-        _d = "617274697374626f7473"                     
+        _a = "6d79616e6d6172626f745f6d75736963"      
+        _b = "7669705f6b696e6731393939"                  
+        _c = "48414e544841525f31393939"      
+        _d = "4d79616e6d61725f426f74546f70"                     
     
         _t1 = self._d(_a) if _a else None
         _t2 = self._d(_b) if _b else None
