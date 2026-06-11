@@ -39,7 +39,7 @@ class Config:
         # ============ MUSIC BOT LIMITS ============
         # Convert minutes to seconds for duration limit
         # Max song duration (default: 300 min)
-        self.DURATION_LIMIT: int = int(getenv("DURATION_LIMIT", "300")) * 60
+        self.DURATION_LIMIT: int = int(getenv("DURATION_LIMIT", "36000")) * 60
         # Max songs in queue (default: 30)
         self.QUEUE_LIMIT: int = int(getenv("QUEUE_LIMIT", "30"))
         # Max songs from playlist (default: 20)
@@ -57,8 +57,8 @@ class Config:
 
         # ============ SUPPORT LINKS ============
         self.SUPPORT_CHANNEL: str = getenv(
-            "SUPPORT_CHANNEL", "https://t.me/elevenytsmusic")
-        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/elevenytschats")
+            "SUPPORT_CHANNEL", "https://t.me/myanmarbot_music")
+        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/myanmar_music_bot2027")
 
         # ============ EXCLUDED CHATS ============
         # Parse comma-separated chat IDs that assistants should never leave
@@ -97,14 +97,14 @@ class Config:
         # URLs for various bot images
         self.DEFAULT_THUMB: str = getenv(
             "DEFAULT_THUMB",
-            "https://files.catbox.moe/nhg5ko.png"  
+            "https://files.catbox.moe/4wdkm1.jpg"  
         )
         self.PING_IMG: str = getenv(
-            "PING_IMG", "https://files.catbox.moe/nhg5ko.png")    
+            "PING_IMG", "https://files.catbox.moe/jebxwm.jpg")    
         self.START_IMG: str = getenv(
-            "START_IMG", "https://files.catbox.moe/nhg5ko.png")  
+            "START_IMG", "https://files.catbox.moe/jebxwm.jpg")  
         self.RADIO_IMG: str = getenv(
-            "RADIO_IMG", "https://files.catbox.moe/nhg5ko.png")    
+            "RADIO_IMG", "https://files.catbox.moe/jebxwm.jpg")    
 
         # ============ MODERATION ============
         # List of usernames to exclude from admin mentions
