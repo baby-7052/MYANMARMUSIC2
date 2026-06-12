@@ -126,7 +126,7 @@ class Thumbnail:
             draw.text((bar_end_x - duration_w, bar_y + 15), duration_str, fill=(180, 180, 180, 200), font=self.small_font)
 
             # 6. ရိုးရှင်းသန့်ပြန့်ပြီး စမတ်ကျသော ရေစာ (Watermark) - ညာဘက်အောက်ထောင့်
-            watermark_text = "MYANMAR BOT"
+            watermark_text = "HANTHAR"
             wm_w = self.watermark_font.getlength(watermark_text)
             wm_x = size[0] - wm_w - 50
             wm_y = size[1] - 70
